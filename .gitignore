@@ -1,0 +1,7 @@
+.env/*
+*.pyc
+__pycache__
+*.sqlite3
+psa
+instafile.py
+backend/home/session-pranay._.pandey
