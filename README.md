@@ -6,20 +6,18 @@ storage space. When a photo is uploaded, the app identifies the faces in it and 
 a separate album with all their photos allowing them to get the photos they need seamlessly.
 Upload group photos, arrange them by faces using ML and share them with ease. 🤳🤖
 
-## Installation
-    1. ### Setting up git:
-    - [Download and install the latest version of Git.](https://git-scm.com/downloads)
-    - (Optional) [Set your username in Git.](https://help.github.com/articles/setting-your-username-in-git)
-    - (Optional) [Set your commit email address in Git.](https://help.github.com/articles/setting-your-commit-email-address-in-git)
-    2. ### Cloning the Repo in your local machine
-    - Run ``git clone git@github.com:Pranay-Pandey``
-    - ``cd Face-Detection-App``
-    - Make a virtual environment named .env ``python3 -m venv .env``
-    - Activate ``.env`` by ``source .env/bin/activate``
-    - Download the requirements ``pip install -r requirements.txt``
-    - Run script ``bash setup.sh``
-    - Go to  http://127.0.0.1:8000/
-    - You are good to go! 🤘
+## Installation 
+### Cloning the Repo on your local machine
+<ol>
+  <li>Run the following command to clone the repo: <code>git clone https://github.com/Pranay-Pandey/Face-Detection-Web_app.git</code></li>
+  <li>Navigate to the project directory: <code>cd Face-Detection-Web_app</code></li>
+  <li>Create a virtual environment named .env: <code>python3 -m venv .env</code></li>
+  <li>Activate the virtual environment: <code>source .env/bin/activate</code></li>
+  <li>Download the required dependencies: <code>pip install -r requirements.txt</code></li>
+  <li>Run the setup script: <code>bash setup.sh</code></li>
+  <li>Go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a></li>
+  <li>You're ready to go! <span style="font-size:1.5em;">🤘</span></li>
+</ol>
 
 
 ![3](https://user-images.githubusercontent.com/72318258/150670158-1e18c160-9a04-4412-999a-051e228887cc.png)
